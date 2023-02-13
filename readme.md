@@ -16,6 +16,8 @@ Make sure you lounched server application first, only the Client.
 ### Installation
 **Open terminal** 
 
+Go to Client folder
+
 ``npm i ``
 
 ### Launch for development
