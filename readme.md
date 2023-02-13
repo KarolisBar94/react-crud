@@ -11,14 +11,22 @@ Make sure you lounched server application first, only the Client.
 ## Launching Client aplication
 
 ### Installation
-aprasimas
+**Open terminal** 
+
+``npm i ``
 
 ### Launch for development
-jusu aprasimas su komandom
+**Open terminal**
+
+```npm run start```
 
 ### Launch for production
-aprasimas su </div>
+**Open terminal**
+
+``npm run build``
 
 
 ## View Code
-kodas i repozitorija dev**
+[Link to repository dev**][def]
+
+[def]: https://github.dev/KarolisBar94/react-crud
