@@ -8,8 +8,8 @@ You can change port or json file in [package.json](./package.json)
 ```json
 {
   ...
-   "scripts": {                        ↙             ↙
-    "server": "json-server --watch db.json --port 5007"
+   "scripts": {              ↙           ↙
+    "server": "json-server db.json -p 5007"
   },
   ...
 }
