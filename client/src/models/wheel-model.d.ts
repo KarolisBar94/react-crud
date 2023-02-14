@@ -1,8 +1,8 @@
 type WheelModel = {
-    id: string,
+    id: number,
     brand: string,
     style: string,
     images: string[],
-    price: string,
+    price: number,
     rating: number
   };

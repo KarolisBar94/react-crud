@@ -1,461 +1,149 @@
 {
-    "beers": [
-      {
-        "id": 2379,
-        "uid": "d3382f09-58f3-4066-a3a6-909d027ed6d0",
-        "brand": "Paulaner",
-        "name": "Duvel",
-        "style": "Porter",
-        "hop": "Bullion",
-        "yeast": "3763 - Roeselare Ale Blend",
-        "malts": "Rye malt",
-        "ibu": "66 IBU",
-        "alcohol": "2.1%",
-        "blg": "10.5°Blg",
-        "images": [
-          "https://ajenjo.com.co/wp-content/uploads/2022/09/duvel-300x300.jpg"
-        ]
-      },
-      {
-        "id": 6016,
-        "uid": "113327fe-0f85-45e5-b25c-30e1f14a51d9",
-        "brand": "Miller Draft",
-        "name": "Westmalle Trappist Tripel",
-        "style": "Light Lager",
-        "hop": "Millennium",
-        "yeast": "3724 - Belgian Saison",
-        "malts": "Rye malt",
-        "ibu": "32 IBU",
-        "alcohol": "3.8%",
-        "blg": "17.8°Blg",
-        "images": [
-          "https://cdn.shopify.com/s/files/1/0496/3850/6663/products/achat-biere-Westmalle-Tripel_f155da20-761f-4e66-892b-c8a436f0832a_250x@2x.png?v=1641497866",
-          "https://www.belgiansmaak.com/wp-content/gallery/westmalle-tripel/cache/6328764776_025d999cd2_z.jpg-nggid03478-ngg0dyn-0x0x100-00f0w010c010r110f110r010t010.jpg"
-        ]
-      },
-      {
-        "id": 2528,
-        "uid": "8b291668-0545-4802-b81d-0c805e2d90c9",
-        "brand": "Pabst Blue Ribbon",
-        "name": "Sublimely Self-Righteous Ale",
-        "style": "English Brown Ale",
-        "hop": "Equinox",
-        "yeast": "1450 - Dennys Favorite 50",
-        "malts": "Black malt",
-        "ibu": "44 IBU",
-        "alcohol": "3.0%",
-        "blg": "6.9°Blg",
-        "images": [
-          "http://localhost:5009/2022_ssr_overview.jpg",
-          "http://localhost:5009/stone-sublimely-self-righteous.jpg",
-          "http://localhost:5009/sublimely-selfrighteous-ale-4001_0.jpg"
-        ]
-      },
-      {
-        "id": 2285,
-        "uid": "0fecdf5f-75a8-47a1-aaeb-ec8aec6ee5f4",
-        "brand": "Murphys",
-        "name": "Chimay Grande Réserve",
-        "style": "Vegetable Beer",
-        "hop": "Brewer’s Gold",
-        "yeast": "1007 - German Ale",
-        "malts": "Caramel",
-        "ibu": "33 IBU",
-        "alcohol": "9.2%",
-        "blg": "7.0°Blg",
-        "images": []
-      },
-      {
-        "id": 7698,
-        "uid": "98b93cba-7340-4382-8a01-cf01ba60724a",
-        "brand": "Pabst Blue Ribbon",
-        "name": "Celebrator Doppelbock",
-        "style": "Sour Ale",
-        "hop": "Tahoma",
-        "yeast": "1098 - British Ale",
-        "malts": "Carapils",
-        "ibu": "28 IBU",
-        "alcohol": "9.9%",
-        "blg": "11.8°Blg",
-        "images": []
-      },
-      {
-        "id": 5178,
-        "uid": "645763f3-75a0-48b8-be1d-75c91fc660ec",
-        "brand": "Stella Artois",
-        "name": "Weihenstephaner Hefeweissbier",
-        "style": "Porter",
-        "hop": "Equinox",
-        "yeast": "2035 - American Lager",
-        "malts": "Wheat mal",
-        "ibu": "76 IBU",
-        "alcohol": "3.8%",
-        "blg": "13.4°Blg",
-        "images": []
-      },
-      {
-        "id": 2547,
-        "uid": "6faa8eb7-c673-4b41-8bca-0ebf0672bf71",
-        "brand": "Sapporo",
-        "name": "Sapporo Premium",
-        "style": "Sour Ale",
-        "hop": "Newport",
-        "yeast": "2035 - American Lager",
-        "malts": "Special roast",
-        "ibu": "65 IBU",
-        "alcohol": "8.1%",
-        "blg": "16.7°Blg",
-        "images": []
-      },
-      {
-        "id": 6571,
-        "uid": "8b0a7daf-b2d2-4b8b-8baa-747baa112ab5",
-        "brand": "Leffe",
-        "name": "Trappistes Rochefort 10",
-        "style": "Smoke-flavored",
-        "hop": "Fuggle",
-        "yeast": "2206 - Bavarian Lager",
-        "malts": "Roasted barley",
-        "ibu": "19 IBU",
-        "alcohol": "9.1%",
-        "blg": "9.0°Blg",
-        "images": []
-      },
-      {
-        "id": 6899,
-        "uid": "a5bfc2f3-feee-4b69-9cb8-985ed5ab69b7",
-        "brand": "Sapporo",
-        "name": "90 Minute IPA",
-        "style": "German Wheat And Rye Beer",
-        "hop": "Bravo",
-        "yeast": "3463 - Forbidden Fruit",
-        "malts": "Victory",
-        "ibu": "57 IBU",
-        "alcohol": "7.0%",
-        "blg": "10.3°Blg",
-        "images": []
-      },
-      {
-        "id": 3698,
-        "uid": "3995f3d5-962f-45dc-a7d9-05f74f3f2ba7",
-        "brand": "Hoegaarden",
-        "name": "Two Hearted Ale",
-        "style": "Vegetable Beer",
-        "hop": "Horizon",
-        "yeast": "1010 - American Wheat",
-        "malts": "Black malt",
-        "ibu": "100 IBU",
-        "alcohol": "9.2%",
-        "blg": "8.0°Blg",
-        "images": []
-      },
-      {
-        "id": 6542,
-        "uid": "aae16456-4a43-43fe-9b87-1be25425429b",
-        "brand": "Leffe",
-        "name": "Maudite",
-        "style": "Belgian And French Ale",
-        "hop": "Amarillo",
-        "yeast": "1968 - London ESB Ale",
-        "malts": "Caramel",
-        "ibu": "12 IBU",
-        "alcohol": "6.0%",
-        "blg": "6.5°Blg",
-        "images": []
-      },
-      {
-        "id": 7661,
-        "uid": "df3e21f2-7cb3-4f26-ba26-0fb1fd66a392",
-        "brand": "Sapporo",
-        "name": "Founders Kentucky Breakfast",
-        "style": "Amber Hybrid Beer",
-        "hop": "Nugget",
-        "yeast": "3711 - French Saison",
-        "malts": "Rye malt",
-        "ibu": "35 IBU",
-        "alcohol": "4.6%",
-        "blg": "10.7°Blg",
-        "images": []
-      },
-      {
-        "id": 5840,
-        "uid": "8ab192e2-4b51-4fe8-ba51-cef36a1d2dd4",
-        "brand": "Amstel",
-        "name": "Stone Imperial Russian Stout",
-        "style": "Dark Lager",
-        "hop": "Centennial",
-        "yeast": "3724 - Belgian Saison",
-        "malts": "Pale",
-        "ibu": "26 IBU",
-        "alcohol": "5.1%",
-        "blg": "9.3°Blg",
-        "images": []
-      },
-      {
-        "id": 6915,
-        "uid": "96cd1704-3d41-4a15-a504-0064b2209e89",
-        "brand": "Pacifico",
-        "name": "Arrogant Bastard Ale",
-        "style": "Strong Ale",
-        "hop": "Palisade",
-        "yeast": "5733 - Pediococcus",
-        "malts": "Carapils",
-        "ibu": "12 IBU",
-        "alcohol": "4.2%",
-        "blg": "5.3°Blg",
-        "images": []
-      },
-      {
-        "id": 2806,
-        "uid": "92137824-eb34-4f70-854f-2580274feb7e",
-        "brand": "Delirium",
-        "name": "Stone IPA",
-        "style": "Belgian And French Ale",
-        "hop": "Eroica",
-        "yeast": "1318 - London Ale III",
-        "malts": "Munich",
-        "ibu": "30 IBU",
-        "alcohol": "2.0%",
-        "blg": "11.2°Blg",
-        "images": []
-      },
-      {
-        "id": 6640,
-        "uid": "bf73adf5-009e-4320-a814-c7f063320f1c",
-        "brand": "Rolling Rock",
-        "name": "Hercules Double IPA",
-        "style": "Scottish And Irish Ale",
-        "hop": "Hallertau",
-        "yeast": "3711 - French Saison",
-        "malts": "Munich",
-        "ibu": "33 IBU",
-        "alcohol": "8.4%",
-        "blg": "11.6°Blg",
-        "images": []
-      },
-      {
-        "id": 2896,
-        "uid": "45d5c856-3101-4f4e-a487-4b7aedcf9b7a",
-        "brand": "Lowenbrau",
-        "name": "Hop Rod Rye",
-        "style": "English Brown Ale",
-        "hop": "Glacier",
-        "yeast": "1056 - American Ale",
-        "malts": "Roasted barley",
-        "ibu": "100 IBU",
-        "alcohol": "7.5%",
-        "blg": "10.6°Blg",
-        "images": []
-      },
-      {
-        "id": 3289,
-        "uid": "1c066cfc-33c2-4305-97d9-fbdd4129a9e5",
-        "brand": "Rolling Rock",
-        "name": "Old Rasputin Russian Imperial Stout",
-        "style": "Light Hybrid Beer",
-        "hop": "Olympic",
-        "yeast": "2112 - California Lager",
-        "malts": "Victory",
-        "ibu": "87 IBU",
-        "alcohol": "8.7%",
-        "blg": "8.9°Blg",
-        "images": []
-      },
-      {
-        "id": 7342,
-        "uid": "eb7fee54-72b0-45cb-b3a2-0e34cf7e3c93",
-        "brand": "BudLight",
-        "name": "90 Minute IPA",
-        "style": "Smoke-flavored",
-        "hop": "Magnum",
-        "yeast": "1318 - London Ale III",
-        "malts": "Rye malt",
-        "ibu": "80 IBU",
-        "alcohol": "4.4%",
-        "blg": "16.7°Blg",
-        "images": []
-      },
-      {
-        "id": 3181,
-        "uid": "48101df5-95b5-4108-911f-5653f7b6a216",
-        "brand": "Birra Moretti",
-        "name": "Two Hearted Ale",
-        "style": "English Pale Ale",
-        "hop": "Cascade",
-        "yeast": "1318 - London Ale III",
-        "malts": "Munich",
-        "ibu": "82 IBU",
-        "alcohol": "9.4%",
-        "blg": "8.2°Blg",
-        "images": []
-      },
-      {
-        "id": 737,
-        "uid": "2be24c7f-00ad-4a4d-9490-076f919d26b1",
-        "brand": "Leffe",
-        "name": "Racer 5 India Pale Ale, Bear Republic Bre",
-        "style": "Pilsner",
-        "hop": "Saaz",
-        "yeast": "1187 - Ringwood Ale",
-        "malts": "Special roast",
-        "ibu": "32 IBU",
-        "alcohol": "5.2%",
-        "blg": "16.8°Blg",
-        "images": []
-      },
-      {
-        "id": 1979,
-        "uid": "16c8e9f7-143d-476c-bbba-26f747c20367",
-        "brand": "Pabst Blue Ribbon",
-        "name": "Stone Imperial Russian Stout",
-        "style": "Light Hybrid Beer",
-        "hop": "Summit",
-        "yeast": "1007 - German Ale",
-        "malts": "Caramel",
-        "ibu": "31 IBU",
-        "alcohol": "4.3%",
-        "blg": "9.1°Blg",
-        "images": []
-      },
-      {
-        "id": 8109,
-        "uid": "ba964380-f1ad-42d1-975d-360debf9c15b",
-        "brand": "Budweiser",
-        "name": "Stone IPA",
-        "style": "Strong Ale",
-        "hop": "Bitter Gold",
-        "yeast": "2206 - Bavarian Lager",
-        "malts": "Caramel",
-        "ibu": "59 IBU",
-        "alcohol": "3.3%",
-        "blg": "19.8°Blg",
-        "images": []
-      },
-      {
-        "id": 5389,
-        "uid": "42f8e9cd-61ea-4615-980b-0eea1b0aaa12",
-        "brand": "Fosters",
-        "name": "Maudite",
-        "style": "India Pale Ale",
-        "hop": "Crystal",
-        "yeast": "2633 - Octoberfest Lager Blend",
-        "malts": "Chocolate",
-        "ibu": "93 IBU",
-        "alcohol": "8.9%",
-        "blg": "19.4°Blg",
-        "images": []
-      },
-      {
-        "id": 7907,
-        "uid": "dbe0f165-a33a-45ed-8304-48e9a19dcebe",
-        "brand": "Becks",
-        "name": "Maudite",
-        "style": "Wood-aged Beer",
-        "hop": "Centennial",
-        "yeast": "1099 - Whitbread Ale",
-        "malts": "Victory",
-        "ibu": "40 IBU",
-        "alcohol": "2.2%",
-        "blg": "19.8°Blg",
-        "images": []
-      },
-      {
-        "id": 3296,
-        "uid": "e7e61c5d-1987-4fc6-b3e7-b91b45e4348b",
-        "brand": "Birra Moretti",
-        "name": "Celebrator Doppelbock",
-        "style": "Strong Ale",
-        "hop": "Sterling",
-        "yeast": "3787 - Trappist High Gravity",
-        "malts": "Caramel",
-        "ibu": "31 IBU",
-        "alcohol": "5.1%",
-        "blg": "18.0°Blg",
-        "images": []
-      },
-      {
-        "id": 4974,
-        "uid": "0271c14e-7019-4093-bce4-14f7e0cacc93",
-        "brand": "Pabst Blue Ribbon",
-        "name": "Stone Imperial Russian Stout",
-        "style": "Merican Ale",
-        "hop": "Warrior",
-        "yeast": "3942 - Belgian Wheat",
-        "malts": "Caramel",
-        "ibu": "75 IBU",
-        "alcohol": "4.6%",
-        "blg": "19.3°Blg",
-        "images": []
-      },
-      {
-        "id": 7837,
-        "uid": "6063576d-58aa-4327-999a-ed323b84e888",
-        "brand": "Becks",
-        "name": "Stone IPA",
-        "style": "European Amber Lager",
-        "hop": "Horizon",
-        "yeast": "2042 - Danish Lager",
-        "malts": "Caramel",
-        "ibu": "12 IBU",
-        "alcohol": "3.9%",
-        "blg": "9.5°Blg",
-        "images": []
-      },
-      {
-        "id": 1170,
-        "uid": "64cb4a37-90c1-4abb-a89b-2b34294af671",
-        "brand": "Corona Extra",
-        "name": "Edmund Fitzgerald Porter",
-        "style": "Stout",
-        "hop": "Ahtanum",
-        "yeast": "2035 - American Lager",
-        "malts": "Vienna",
-        "ibu": "49 IBU",
-        "alcohol": "9.6%",
-        "blg": "11.6°Blg",
-        "images": []
-      },
-      {
-        "id": 8078,
-        "uid": "1185e5a2-3451-4d3b-87e7-3ebad81d49e3",
-        "brand": "Pacifico",
-        "name": "Péché Mortel",
-        "style": "Light Lager",
-        "hop": "Golding",
-        "yeast": "3068 - Weihenstephan Weizen",
-        "malts": "Chocolate",
-        "ibu": "17 IBU",
-        "alcohol": "8.3%",
-        "blg": "16.3°Blg",
-        "images": []
-      },
-      {
-        "id": 3916,
-        "uid": "2e274e30-6ade-4284-b554-772a5a71e53a",
-        "brand": "Red Stripe",
-        "name": "Sapporo Premium",
-        "style": "Sour Ale",
-        "hop": "Fuggle",
-        "yeast": "3056 - Bavarian Wheat Blend",
-        "malts": "Carapils",
-        "ibu": "57 IBU",
-        "alcohol": "6.9%",
-        "blg": "20.0°Blg",
-        "images": []
-      },
-      {
-        "id": 675,
-        "uid": "b7e3a5b2-cf7e-4720-befa-022da7f902e4",
-        "brand": "Budweiser",
-        "name": "Hennepin",
-        "style": "Stout",
-        "hop": "Brewer’s Gold",
-        "yeast": "1968 - London ESB Ale",
-        "malts": "Wheat mal",
-        "ibu": "66 IBU",
-        "alcohol": "6.3%",
-        "blg": "10.8°Blg",
-        "images": []
-      }
-    ]
-  }
+  "Wheels": [
+    {
+      "id": 1,
+      "brand": "Bola",
+      "model": "FP1(FORGED)",
+      "price": "2419",
+      "rating": 4.92,
+      "images":  [
+         "https://cdn4.wheelbasealloys.com/product-images/product-85332_11942_600.jpg",
+         "https://cdn.shopify.com/s/files/1/0631/3567/8697/products/DSC09724_563x.jpg?v=1650097985",
+         "https://cdn.shopify.com/s/files/1/0631/3567/8697/products/DSC09725_563x.jpg?v=1650097985"
+
+      ]
+    },
+    {
+      "id": 2,
+      "brand": "HRE Forged",
+      "style": "C100",
+      "price": "2854",
+      "rating": 4.07,
+      "images": [
+        "https://cdn4.wheelbasealloys.com/product-images/C100_67002_600.jpg",
+        "https://cdn.shopify.com/s/files/1/2641/0682/products/C100-Car1.jpg?v=1584134323",
+        "https://cdn.shopify.com/s/files/1/2641/0682/products/C100-Car2.jpg?v=1584134328"
+      ]
+    },
+    {
+      "id": 3,
+      "brand": "HRE Forged",
+      "style": "501M",
+      "price": "3059",
+      "rating": 4.80,
+      "images": [
+        "https://cdn4.wheelbasealloys.com/product-images/501M_55688_600.jpg",
+        "https://images.carid.com/hre-wheels/items/hre-forged-vintage-501m-brushed-dark-clear-bmw-m3-3.jpg",
+        "http://www.tagmotorsports.com/Forums/Gabriel%20New%20Photos/M4%20HRE501/m4_hre501_7.jpg"
+      ]
+    },
+    {
+      "id": 4,
+      "brand": "MAM",
+      "style": "B2",
+      "price": "929",
+      "rating": 5.00,
+      "images": [
+        "https://cdn4.wheelbasealloys.com/product-images/product-292346_106000_900.jpg",
+        "https://images.fitmentindustries.com/web-compressed/1604098-1-2016-leon-seat-base-d2-racing-coilovers-mam-b2-bronze.jpg",
+        "https://www.felgengalerie.de/wp-content/uploads/2018/08/PicsArt_08-12-03.07.35_1500x630_acf_cropped.jpg"
+      ]
+    },
+    {
+      "id": 5,
+      "brand": "Japan Racing",
+      "style": "JR37",
+      "price": "1169",
+      "rating": 4.45,
+      "images": [
+        "https://cdn4.wheelbasealloys.com/product-images/product-495392_109521_900.jpg",
+        "https://global.scstyling.com/pub_images/original/JR37SI_4.jpg",
+        "https://cdn.abicart.com/shop/images/193222048-origpic-665b4d/ws75/51075/art75/h2048/pol_pl_Felgi-aluminiowe-20-Japan-Racing-JR37-20x10-ET20-45-5H-BLANK-Silver-MachinedFace-85947_4.jpg"
+      ]
+    },
+    {
+      "id": 6,
+      "brand": "Brock",
+      "style": "B42",
+      "price": "1169",
+      "rating": 4.72,
+      "images": [
+        "https://cdn4.wheelbasealloys.com/product-images/product-677463_109822_900.jpg",
+        "https://www.brock.de/wp-content/uploads/2021/04/BMW-3er-Brock-B42-SGVP-4.jpg",
+        "https://www.brock.de/wp-content/uploads/2021/04/BMW-3er-Brock-B42-SGVP-1.jpg"
+      ]
+    },
+    {
+      "id": 7,
+      "brand": "Wolfrace",
+      "style": "Urban Racer",
+      "price": "1029",
+      "rating": 4.77,
+      "images": [
+        "https://cdn4.wheelbasealloys.com/product-images/product-146349_93416_900.jpg",
+        "https://www.wolfrace.com/wp-content/uploads/2021/01/119046052_785605972195006_5950882199439438128_n.jpg",
+        "https://www.wolfrace.com/wp-content/uploads/2021/01/119042399_2717989405116575_7197780414240599737_n.jpg"
+      ]
+    },
+    {
+      "id": 8,
+      "brand": "Judd",
+      "style": "Three",
+      "price": "1569",
+      "rating": 4.99,
+      "images": [
+        "https://www.wheelbasealloys.com/product-images/product-384108_14689_600.jpg"
+
+      ]
+    },
+    {
+      "id": 9,
+      "brand": "Velare",
+      "style": "VLR04",
+      "price": "1229",
+      "rating": 4.12,
+      "images": [
+        "https://cdn4.wheelbasealloys.com/product-images/VLR04-Matt-Graphite-Side-Angle-jpg_65584_600.jpg",
+        "https://www.vanstyle.co.uk/van/images/VB1414_Velare_VLR04_20inch_5x120_Diamond_Black_Polished_Wx4_r_1035_b.jpg",
+        "https://www.vanstyle.co.uk/van/images/prod_thumbs/VB1414_Velare_VLR04_20inch_5x120_Diamond_Black_Polished_Wx4_r_1035_d.jpg"
+      ]
+    },
+    {
+      "id": 10,
+      "brand": "Zito",
+      "style": "ZS15",
+      "price": "1209",
+      "rating": 3.99,
+      "images": [
+        "https://cdn4.wheelbasealloys.com/product-images/ZS15_36812_600.jpg",
+        "https://wheelfront.com/wp-content/uploads/formidable/8/Jeep-SRT8-Red-Nardo-22-ZS15-6-2.jpg",
+        "https://armotorwerkz.com/wp-content/uploads/2018/10/ZITO-ZS15-ON-A-F82-M4-bump.jpg"
+      ]
+    },
+    {
+      "id": 11,
+      "brand": "Fondmetal",
+      "style": "Aidon",
+      "price": "1219",
+      "rating": 4.51,
+      "images": [
+        "https://cdn4.wheelbasealloys.com/product-images/product-773321_117970_600.jpg",
+        "https://globalwheels.co.uk/wp-content/uploads/2021/05/Aidon-mercedes-02.jpegv",
+        "https://globalwheels.co.uk/wp-content/uploads/2021/05/Aidon-mercedes-01.jpeg"
+      ]
+    },
+    {
+      "id": 12,
+      "brand": "Vorsteiner Forged",
+      "style": "VFN-515",
+      "price": "8479",
+      "rating": 5.00,
+      "images": [
+        "https://cdn4.wheelbasealloys.com/product-images/515pg_52561_600.jpg",
+        "https://cdn.shopify.com/s/files/1/0627/9590/7277/products/vorsteiner-vfn-515-3-piece_1024x.jpg?v=1671472495",
+        "https://cdn.shopify.com/s/files/1/0627/9590/7277/products/vorsteiner-vfn-515-gold-duoblock-bmw-m3_1023x.jpg?v=1671472199"
+      ]
+    }
+  ]
+}
+  
