@@ -1,6 +1,8 @@
 import React from 'react';
 import { Box } from '@mui/material';
 import ApiService from 'sevices/api-service';
+import WheelCard from './wheel-card';
+import * as Styled from './styled'
 
 const HomePage = () => {
   const [wheels, setWheels] = React.useState<WheelModel[]>([]);
@@ -13,11 +15,9 @@ const HomePage = () => {
   }, []);
 
   return (
-    <Box>
-      <Box component="pre">
-        {JSON.stringify(wheels, null, 4)}
-      </Box>
-    </Box>
+    <Styled.WheelCardGrid>
+      {wheels.map((wheel) => <WheelCard key={wheel.id} { ...wheel} />)}
+    </Styled.WheelCardGrid>
   );
 };
 

@@ -1,7 +1,12 @@
 import { createTheme } from '@mui/material';
 
-// sukuria temą, default temos pagrindu.
+// default tema.
 const theme = createTheme({
+    palette: {
+      primary: {
+        main: '#006064',
+      },
+    },
   zIndex: {
     appBar: 1250,
   },
