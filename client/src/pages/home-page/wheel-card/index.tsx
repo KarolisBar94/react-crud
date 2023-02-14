@@ -5,7 +5,9 @@ import {
     Button,
   } from '@mui/material';
   import Img from 'components/ui/img';
+  import routes from 'navigation/routes';
   import React from 'react';
+  import { useNavigate } from 'react-router-dom';
   import * as Styled from './styled';
   
   type WheelCardProps = WheelModel;
@@ -17,13 +19,16 @@ import {
     images,
     price,
     rating,
-  }) => (
+  }) => {
+    const navigate = useNavigate();
+
+    return (
     <Stack sx={{ boxShadow: 5 }}>
       <Img src={images[0]} alt="" sx={{ aspectRatio: '1.0', width: 1 }} />
       <Styled.ContentWrapper>
         <Box sx={{ flexGrow: 1 }}>
           <Box sx={{ float: 'right', textAlign: 'right' }}>
-            <Box sx={{ fontSize: '1.3rem', color: 'grey.700', fontWeight: 600 }}>Unit.{price}€</Box>
+            <Box sx={{ fontSize: '1.3rem', color: 'grey.800', fontWeight: 600 }}>Unit.{price}€</Box>
             <Styled.Rating>{rating}</Styled.Rating>
           </Box>
   
@@ -32,11 +37,18 @@ import {
         </Box>
   
         <Styled.ButtonContainer>
-          <Button color="success" variant="outlined">🖤</Button>
-          <Button color="primary" variant="contained">View details</Button>
+          <Button color="success" variant="text">❤️</Button>
+          <Button 
+          color="primary" 
+          variant="contained"
+          onClick={() => navigate(routes.WheelPage.createLink(id))}
+          >
+            View details
+            </Button>
         </Styled.ButtonContainer>
       </Styled.ContentWrapper>
     </Stack>
   );
+  };
   
   export default WheelCard;

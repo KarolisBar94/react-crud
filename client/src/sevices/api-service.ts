@@ -15,8 +15,16 @@ const fetchWheels = async () => {
   return data;
 };
 
+const fetchWheel = async (id: string | number) => {
+  const { data } = await api.get<WheelModel>(`/wheels/${id}`);
+
+
+return data;
+};
+
 const ApiService = {
   fetchWheels,
+  fetchWheel,
 };
 
 export default ApiService;

@@ -13,7 +13,7 @@ export const Rating = styled(Box)(({ theme }) => ({
   color: theme.palette.warning.dark,
   gap: theme.spacing(0.2),
   fontWeight: 600,
-  '&:after': {
+  '&:before': {
     content: '"★"',
   },
 }));

@@ -3,7 +3,7 @@
     {
       "id": 1,
       "brand": "Bola",
-      "model": "FP1(FORGED)",
+      "style": "FP1(FORGED)",
       "price": "2419",
       "rating": 4.92,
       "images":  [
@@ -112,7 +112,7 @@
       "id": 10,
       "brand": "Zito",
       "style": "ZS15",
-      "price": "€1209",
+      "price": "1209",
       "rating": 3.99,
       "images": [
         "https://cdn4.wheelbasealloys.com/product-images/ZS15_36812_600.jpg",

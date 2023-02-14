@@ -1,5 +1,11 @@
+const WheelPagePath = '/wheel-page/' as const;
+
 const routes = {
   HomePage: '/',
+  WheelPage: {
+    routePath: `${WheelPagePath}:id`,
+    createLink: (id: string | number) => `${WheelPagePath}${id}`,
+  },
 } as const;
 
 export type Routes = typeof routes;

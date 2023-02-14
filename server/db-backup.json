@@ -3,7 +3,7 @@
     {
       "id": 1,
       "brand": "Bola",
-      "model": "FP1(FORGED)",
+      "style": "FP1(FORGED)",
       "price": "2419",
       "rating": 4.92,
       "images":  [
