@@ -23,7 +23,7 @@ import {
     const navigate = useNavigate();
 
     return (
-    <Stack sx={{ boxShadow: 5 }}>
+    <Stack sx={{ boxShadow: 5, borderRadius: 2, overflow: 'hidden'}}>
       <Img src={images[0]} alt="" sx={{ aspectRatio: '1.0', width: 1 }} />
       <Styled.ContentWrapper>
         <Box sx={{ flexGrow: 1 }}>
@@ -39,8 +39,10 @@ import {
         <Styled.ButtonContainer>
           <Button color="success" variant="text">❤️</Button>
           <Button 
+          size="small"
           color="primary" 
           variant="contained"
+          sx={{ borderRadius: 0 }}
           onClick={() => navigate(routes.WheelPage.createLink(id))}
           >
             View details

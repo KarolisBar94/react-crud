@@ -1,7 +1,7 @@
 import React from 'react';
 import { Box } from '@mui/material';
 import ApiService from 'sevices/api-service';
-import WheelCard from './wheel-card';
+import WheelCard from './wheel-list';
 import * as Styled from './styled'
 
 const HomePage = () => {
