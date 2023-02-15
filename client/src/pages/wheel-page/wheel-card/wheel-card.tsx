@@ -25,7 +25,7 @@ const WheelCard: React.FC<WheelCardProps> = ({
 }) => (
   <>
     <Header>{`${brand}`}</Header>
-    <Grid xs display="flex" justifyContent="center" alignItems="center">
+    <Grid container justifyContent="center">
 
        <Card sx={{maxWidth: 500}}>
         <Swiper pagination={{type: "progressbar",}} navigation={true} modules={[Pagination, Navigation]} className="mySwiper">

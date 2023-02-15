@@ -3,12 +3,17 @@ import {
     Box,
     Typography,
     Button,
+    IconButton,
+    Grid,
   } from '@mui/material';
   import Img from 'components/ui/img';
   import routes from 'navigation/routes';
   import React from 'react';
   import { useNavigate } from 'react-router-dom';
   import * as Styled from './styled';
+  import HighlightOffIcon from '@mui/icons-material/HighlightOff';
+  import UpdateIcon from '@mui/icons-material/Update';
+  
   
   type WheelCardProps = WheelModel;
   
@@ -23,8 +28,16 @@ import {
     const navigate = useNavigate();
 
     return (
-    <Stack sx={{ boxShadow: 5, borderRadius: 2, overflow: 'hidden'}}>
-      <Img src={images[0]} alt="" sx={{ aspectRatio: '1.0', width: 1 }} />
+    <Stack sx={{ boxShadow: 5, borderRadius: 2, overflow: 'hidden', position: 'relative'}}>
+      <Img src={images[0]} alt="" sx={{ aspectRatio: '1.02', width: 1 }} />
+      <Styled.AdminActions>
+        <IconButton  color="warning" size="large">
+          <UpdateIcon/>
+        </IconButton>
+        <IconButton  color="error" size="small">
+          <HighlightOffIcon/>
+        </IconButton>
+      </Styled.AdminActions>
       <Styled.ContentWrapper>
         <Box sx={{ flexGrow: 1 }}>
           <Box sx={{ float: 'right', textAlign: 'right' }}>

@@ -4,6 +4,7 @@ import NavbarLayout from 'components/layout/navbar-layout';
 import HomePage from '../pages/home-page/home-page';
 import WheelPage from 'pages/wheel-page'
 import routes from './routes';
+import WheelFormPage from '../pages/wheel-form-page/index';
 
 const router = createBrowserRouter([
   {
@@ -17,6 +18,10 @@ const router = createBrowserRouter([
       {
         path: routes.WheelPage.routePath,
         element: <WheelPage />,
+      },
+      {
+        path: routes.WheelCreatePage,
+        element: <WheelFormPage mode="create" />,
       },
     ],
   },
