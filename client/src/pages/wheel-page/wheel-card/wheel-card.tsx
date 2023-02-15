@@ -2,9 +2,10 @@ import React from 'react';
 import { Typography, Grid, Card, Stack } from '@mui/material';
 import Img from 'components//ui/img';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation } from 'swiper';
 import 'swiper/css';
 import 'swiper/css/navigation';
+import "swiper/css/pagination";
+import { Pagination, Navigation } from "swiper";
 import * as Styled from './styled';
 import Header from './header';
 import Rating from '@mui/material/Rating';
@@ -27,7 +28,7 @@ const WheelCard: React.FC<WheelCardProps> = ({
     <Grid xs display="flex" justifyContent="center" alignItems="center">
 
        <Card sx={{maxWidth: 500}}>
-        <Swiper navigation modules={[Navigation]} className="mySwiper">
+        <Swiper pagination={{type: "progressbar",}} navigation={true} modules={[Pagination, Navigation]} className="mySwiper">
           <SwiperSlide>
             <Img src={images[0]} alt="" sx={{ aspectRatio: '1.15', width: 1 }} />
           </SwiperSlide>
