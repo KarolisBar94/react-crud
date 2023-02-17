@@ -32,14 +32,17 @@ import {
     return (
     <Stack sx={{ boxShadow: 5, borderRadius: 2, overflow: 'hidden', position: 'relative'}}>
       <Img src={images[0]} alt="" sx={{ aspectRatio: '1.02', width: 1 }} />
-      <Styled.AdminActions>
+      <Styled.AdminUpdate>
         <IconButton  color="warning" size="large" onClick={() => navigate(routes.WheelUpdatePage.createLink(id))}>
           <UpdateIcon/>
         </IconButton>
+        </Styled.AdminUpdate>
+        <Styled.AdminActions>
         <IconButton  color="error" size="small" onClick={onDelete}>
           <HighlightOffIcon/>
         </IconButton>
-      </Styled.AdminActions>
+        </Styled.AdminActions>
+      
       <Styled.ContentWrapper>
         <Box sx={{ flexGrow: 1 }}>
           <Box sx={{ float: 'right', textAlign: 'right' }}>

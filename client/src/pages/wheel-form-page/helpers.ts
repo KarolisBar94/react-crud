@@ -19,7 +19,7 @@
       brand,
       style,
       images: images as string[],
-      price: `${Number(price).toFixed(2)}€`,
+      price: `${Number(price).toFixed(2)}`,
       rating: Number(rating),
     };
   };

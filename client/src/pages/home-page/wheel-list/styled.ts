@@ -14,6 +14,11 @@ export const AdminActions = styled(Box)(({ theme }) => ({
   right: theme.spacing(1),
 }));
 
+export const AdminUpdate = styled(Box)(({ theme }) => ({
+  position: 'absolute',
+  display: 'flex',
+  
+}));
 
 export const Rating = styled(Box)(({ theme }) => ({
   display: 'inline-flex',
