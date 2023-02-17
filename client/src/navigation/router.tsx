@@ -23,6 +23,10 @@ const router = createBrowserRouter([
         path: routes.WheelCreatePage,
         element: <WheelFormPage mode="create" />,
       },
+      {
+        path: routes.WheelUpdatePage.routePath,
+        element: <WheelFormPage mode="update" />,
+      },
     ],
   },
 ]);
