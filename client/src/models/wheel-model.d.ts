@@ -3,6 +3,6 @@ type WheelModel = {
     brand: string,
     style: string,
     images: string[],
-    price: number,
+    price: string,
     rating: number
   };

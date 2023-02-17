@@ -60,7 +60,7 @@ import {
           sx={{ borderRadius: 0 }}
           onClick={() => navigate(routes.WheelPage.createLink(id))}
           >
-            View details
+            Show More
             </Button>
         </Styled.ButtonContainer>
       </Styled.ContentWrapper>

@@ -53,14 +53,10 @@ const WheelFormPage: React.FC<WheelFormPageProps> = ({ mode = 'create'}) => {
     try {
       const values = formatValues(formRef.current);
       if (mode === 'create') {
-      console.log('Sukurimas')
-      console.log(values);
-      } else {
-        console.log('Atnaujinimas, id:', id);
-        console.log(values);
-      }
+        postWheelData(values);
+      } else if (id !== undefined) updateWheelData(id, values);
     } catch (error) {
-      alert(error instanceof Error ? error.message : error);
+      console.log((error as Error).message);
     }
   };
 
@@ -95,6 +91,7 @@ const WheelFormPage: React.FC<WheelFormPageProps> = ({ mode = 'create'}) => {
               color={btnColorMap[mode]}
               variant="contained"
               size="large"
+              fullWidth
             >
               {btnMap[mode]}
             </Button>
