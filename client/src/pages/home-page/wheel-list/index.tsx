@@ -4,7 +4,6 @@ import {
     Typography,
     Button,
     IconButton,
-    Grid,
   } from '@mui/material';
   import Img from 'components/ui/img';
   import routes from 'navigation/routes';
@@ -15,7 +14,9 @@ import {
   import UpdateIcon from '@mui/icons-material/Update';
   
   
-  type WheelCardProps = WheelModel;
+  type WheelCardProps = WheelModel & {
+    onDelete: VoidFunction,
+  };
   
   const WheelCard: React.FC<WheelCardProps> = ({
     id,
@@ -24,6 +25,7 @@ import {
     images,
     price,
     rating,
+    onDelete,
   }) => {
     const navigate = useNavigate();
 
@@ -31,10 +33,10 @@ import {
     <Stack sx={{ boxShadow: 5, borderRadius: 2, overflow: 'hidden', position: 'relative'}}>
       <Img src={images[0]} alt="" sx={{ aspectRatio: '1.02', width: 1 }} />
       <Styled.AdminActions>
-        <IconButton  color="warning" size="large">
+        <IconButton  color="warning" size="large" onClick={() => navigate(routes.WheelUpdatePage.createLink(id))}>
           <UpdateIcon/>
         </IconButton>
-        <IconButton  color="error" size="small">
+        <IconButton  color="error" size="small" onClick={onDelete}>
           <HighlightOffIcon/>
         </IconButton>
       </Styled.AdminActions>

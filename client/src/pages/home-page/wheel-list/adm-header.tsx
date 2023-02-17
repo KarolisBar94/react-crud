@@ -3,7 +3,7 @@ import { Box, Button } from '@mui/material';
 import routes from 'navigation/routes';
 import { useNavigate } from 'react-router-dom';
 
-const Header = () => {
+const AdmHeader = () => {
   const navigate = useNavigate();
 
   return (
@@ -20,4 +20,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default AdmHeader;

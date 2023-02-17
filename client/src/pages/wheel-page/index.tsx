@@ -4,26 +4,14 @@ import ApiService from 'sevices/api-service';
 import { Box } from '@mui/material';
 import routes from 'navigation/routes';
 import WheelCard from './wheel-card/wheel-card';
+import useWheel from 'hooks/useWeel';
 
 
 const WheelPage = () => {
-
   const { id } = useParams();
-
-  const [wheel, setWheel] = React.useState<WheelModel | undefined>(undefined);
-
-  React.useEffect(() => {
-    if (id !== undefined) {
-      (async () => {
-        const fetchedWheel = await ApiService.fetchWheel(id);
-
-        setWheel(fetchedWheel);
-      })();
-    }
-  }, [id]);
-
+  const wheel = useWheel(id);
   if (id === undefined) return <Navigate to={routes.HomePage} />;
-
+     
   return (
     <Box>
       {wheel && <WheelCard {...wheel}/>}

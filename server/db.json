@@ -1,19 +1,6 @@
 {
   "Wheels": [
     {
-      "id": 1,
-      "brand": "Bola",
-      "style": "FP1(FORGED)",
-      "price": "2419",
-      "rating": 4.92,
-      "images":  [
-         "https://cdn4.wheelbasealloys.com/product-images/product-85332_11942_600.jpg",
-         "https://cdn.shopify.com/s/files/1/0631/3567/8697/products/DSC09724_563x.jpg?v=1650097985",
-         "https://cdn.shopify.com/s/files/1/0631/3567/8697/products/DSC09725_563x.jpg?v=1650097985"
-
-      ]
-    },
-    {
       "id": 2,
       "brand": "HRE Forged",
       "style": "C100",
@@ -30,7 +17,7 @@
       "brand": "HRE Forged",
       "style": "501M",
       "price": "3059",
-      "rating": 4.80,
+      "rating": 4.8,
       "images": [
         "https://cdn4.wheelbasealloys.com/product-images/501M_55688_600.jpg",
         "https://images.carid.com/hre-wheels/items/hre-forged-vintage-501m-brushed-dark-clear-bmw-m3-3.jpg",
@@ -42,7 +29,7 @@
       "brand": "MAM",
       "style": "B2",
       "price": "929",
-      "rating": 5.00,
+      "rating": 5,
       "images": [
         "https://cdn4.wheelbasealloys.com/product-images/product-292346_106000_900.jpg",
         "https://images.fitmentindustries.com/web-compressed/1604098-1-2016-leon-seat-base-d2-racing-coilovers-mam-b2-bronze.jpg",
@@ -93,7 +80,6 @@
       "rating": 4.99,
       "images": [
         "https://www.wheelbasealloys.com/product-images/product-384108_14689_600.jpg"
-
       ]
     },
     {
@@ -137,7 +123,7 @@
       "brand": "Vorsteiner Forged",
       "style": "VFN-515",
       "price": "8479",
-      "rating": 5.00,
+      "rating": 5,
       "images": [
         "https://cdn4.wheelbasealloys.com/product-images/515pg_52561_600.jpg",
         "https://cdn.shopify.com/s/files/1/0627/9590/7277/products/vorsteiner-vfn-515-3-piece_1024x.jpg?v=1671472495",
@@ -146,4 +132,3 @@
     }
   ]
 }
-  

@@ -1,5 +1,5 @@
 type WheelModel = {
-    id: number,
+    id: string,
     brand: string,
     style: string,
     images: string[],
